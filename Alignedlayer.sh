@@ -98,9 +98,9 @@ fi
 
 # 下载并安装 Aligned Layer 二进制文件
 cd $HOME
-wget https://github.com/yetanotherco/aligned_layer_tendermint/releases/download/v0.1.0/alignedlayerd
-chmod +x alignedlayerd
-sudo mv alignedlayerd /usr/local/bin/
+# wget https://github.com/yetanotherco/aligned_layer_tendermint/releases/download/v0.1.0/alignedlayerd
+# chmod +x alignedlayerd
+# sudo mv alignedlayerd /usr/local/bin/
 
 # 配置节点和创世文件
 alignedlayerd init $MONIKER --chain-id alignedlayer
